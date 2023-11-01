@@ -1,0 +1,189 @@
+/* Общие стили */
+
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url(/img/BG.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-size: 75px;
+    color: rgb(122, 126, 168);
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+
+/* Стили для текстовых элементов */
+
+.achivments,
+.abote-me {
+    font-size: 25px;
+    width: 100%;
+}
+
+.abote-me {
+    width: 100%;
+}
+
+.main-form {
+    font-size: 20px;
+    max-width: 100%;
+    color: white;
+}
+
+
+/* Стили для основного контейнера */
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Стили для медиа-запроса */
+
+
+/* Стили для шапки */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+.header-items a:visited {
+    color: blue;
+}
+
+.header-items a {
+    text-decoration: none;
+}
+
+.header-items:hover {
+    background-color: blue;
+}
+
+.header-items a:hover {
+    color: rgb(51, 241, 130);
+}
+
+
+/* Стили для изображения "avatark" */
+
+.avatark {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+
+.avatark:hover {
+    position: relative;
+    scale: 1.2;
+}
+
+
+/* Стили для списка достижений */
+
+.achivment-list {
+    margin: 30px;
+    padding: 70px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+.header-items a {
+    text-decoration: none;
+    margin: 0 20px;
+    /* Добавляем отступы между ссылками */
+}
+
+.header-items:hover {
+    background-color: blue;
+}
+
+.header-items a:hover {
+    color: rgb(51, 241, 130);
+}
+
+
+/* Стили для медиа-запроса */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 20px;
+    /* Добавляем отступы между ссылками */
+}
+
+@media (max-width: 770px) {
+    h1 {
+        font-size: 40px;
+    }
+    .achivments,
+    .abote-me {
+        font-size: 16px;
+    }
+    .main-form {
+        font-size: 18px;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .avatark {
+        margin: 0;
+        width: 100px;
+        height: 100px;
+    }
+}

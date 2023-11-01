@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savva's website</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/favicon.png">
+</head>
+
+<body>
+    <header>
+        <img class="avatark" src="/img/Avatark.jpg" alt="Аватарка">
+        <h1>Савва</h1>
+        <ul class="header-list">
+            <li class="header-items"><a href="#">Главная</a></li>
+            <li class="header-items"><a href="#">О нас</a></li>
+            <li class="header-items"><a href="#">Наши проекты</a></li>
+        </ul>
+
+    </header>
+
+    <div class="main-container">
+
+        <main>
+            <h2>О мне:</h2>
+            <p class="abote-me">
+                Я учусь в 6 классе, люблю программировать, занимаюсь видео монтажем.
+            </p>
+
+            <p> </p>
+
+            <h2>Списак достижений:</h2>
+            <ol class="achivment-list" id="test-id">
+                <li class="achivments">Выиграл чемпионат России по прагроммированию AR, VR, XR.</li>
+                <li class="achivments">Никогда не почучал 2-ки по математике.</li>
+                <li class="achivments">Купил сам себе новый телефон.</li>
+            </ol>
+            <form action="#" class="main-form">
+                <p>Пожалуйста заполните форму</p>
+                <fieldset>
+                    <legend>О тебе</legend>
+                    <label for="name">Имя</label>
+                    <input type="text" id="name"><br>
+                    <label for="age">Возраст</label>
+                    <input type="str" id="age"><br>
+                    <label for="phone">Телефон</label>
+                    <input type="text" id="phone"><br>
+                    <label for="email">Почта</label>
+                    <input type="text" id="email"><br>
+                    <label for="about-you">О себе</label>
+                    <textarea name="О себе" id="about-you" cols="20" rows="10"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Выбери свой город</legend>
+                    <input type="radio" id="moscow" name="sity">
+                    <label for="moscow">Москва</label><br>
+                    <input type="radio" id="piter" name="sity">
+                    <label for="piter">Санкт-Питербург</label><br>
+                    <input type="radio" id="vladivostok" name="sity">
+                    <label for="vladivostok">Владивосток</label><br>
+                    <input type="radio" id="krasnodar" name="sity">
+                    <label for="krasnodar">Краснодар</label><br>
+                </fieldset>
+                <input type="button" value="Готово" disabled>
+                <input type="button" value="Сбросить"><br><br>
+                <input type="submit">
+            </form>
+        </main>
+
+        <footer>
+            <ul class="footer-list">
+                <li class="links"><a href="https://vk.com/id671466197">VK</a></li>
+                <li class="links"><a href="#">TG</a></li>
+                <li class="links"><a href="https://www.youtube.com/channel/UCQF6NTbQ73dLrBPqTPFTnwg">YouTube</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
